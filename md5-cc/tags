@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC=g++$/;"	m
+F	md5.cc	/^inline unsigned int MD5::F            (uint4 x, uint4 y, uint4 z){$/;"	f	class:MD5
+FF	md5.cc	/^inline void MD5::FF(uint4& a, uint4 b, uint4 c, uint4 d, uint4 x, $/;"	f	class:MD5
+G	md5.cc	/^inline unsigned int MD5::G            (uint4 x, uint4 y, uint4 z){$/;"	f	class:MD5
+GG	md5.cc	/^inline void MD5::GG(uint4& a, uint4 b, uint4 c, uint4 d, uint4 x, $/;"	f	class:MD5
+H	md5.cc	/^inline unsigned int MD5::H            (uint4 x, uint4 y, uint4 z){$/;"	f	class:MD5
+HH	md5.cc	/^inline void MD5::HH(uint4& a, uint4 b, uint4 c, uint4 d, uint4 x, $/;"	f	class:MD5
+I	md5.cc	/^inline unsigned int MD5::I            (uint4 x, uint4 y, uint4 z){$/;"	f	class:MD5
+II	md5.cc	/^inline void MD5::II(uint4& a, uint4 b, uint4 c, uint4 d, uint4 x, $/;"	f	class:MD5
+MD5	md5.cc	/^MD5::MD5(){$/;"	f	class:MD5
+MD5	md5.cc	/^MD5::MD5(FILE *file){$/;"	f	class:MD5
+MD5	md5.cc	/^MD5::MD5(const std::string& text)$/;"	f	class:MD5
+MD5	md5.cc	/^MD5::MD5(ifstream& stream){$/;"	f	class:MD5
+MD5	md5.cc	/^MD5::MD5(istream& stream){$/;"	f	class:MD5
+MD5	md5.hh	/^class MD5 {$/;"	c
+MD5_file	driver.cc	/^static void MD5_file (char *filename){$/;"	f	file:
+MD5_filter	driver.cc	/^static void MD5_filter ()$/;"	f	file:
+MD5_string	driver.cc	/^void MD5_string (unsigned char *string){$/;"	f
+MD5_testSuite	driver.cc	/^static void MD5_testSuite ()$/;"	f	file:
+MD5_timeTrial	driver.cc	/^static void MD5_timeTrial ()$/;"	f	file:
+MD5_usage	driver.cc	/^static char *MD5_usage(){$/;"	f	file:
+S11	md5.cc	329;"	d	file:
+S12	md5.cc	330;"	d	file:
+S13	md5.cc	331;"	d	file:
+S14	md5.cc	332;"	d	file:
+S21	md5.cc	333;"	d	file:
+S22	md5.cc	334;"	d	file:
+S23	md5.cc	335;"	d	file:
+S24	md5.cc	336;"	d	file:
+S31	md5.cc	337;"	d	file:
+S32	md5.cc	338;"	d	file:
+S33	md5.cc	339;"	d	file:
+S34	md5.cc	340;"	d	file:
+S41	md5.cc	341;"	d	file:
+S42	md5.cc	342;"	d	file:
+S43	md5.cc	343;"	d	file:
+S44	md5.cc	344;"	d	file:
+SHELL	Makefile	/^SHELL=\/bin\/sh$/;"	m
+TEST_BLOCK_COUNT	driver.cc	41;"	d	file:
+TEST_BLOCK_LEN	driver.cc	40;"	d	file:
+buffer	md5.hh	/^  uint1 buffer[64];   \/\/ input buffer$/;"	m	class:MD5
+count	md5.hh	/^  uint4 count[2];     \/\/ number of *bits*, mod 2^64$/;"	m	class:MD5
+decode	md5.cc	/^void MD5::decode (uint4 *output, uint1 *input, uint4 len){$/;"	f	class:MD5
+digest	md5.hh	/^  uint1 digest[16];$/;"	m	class:MD5
+encode	md5.cc	/^void MD5::encode (uint1 *output, uint4 *input, uint4 len) {$/;"	f	class:MD5
+finalize	md5.cc	/^void MD5::finalize (){$/;"	f	class:MD5
+finalized	md5.hh	/^  uint1 finalized;$/;"	m	class:MD5
+hex_digest	md5.cc	/^char *MD5::hex_digest(){$/;"	f	class:MD5
+init	md5.cc	/^void MD5::init(){$/;"	f	class:MD5
+main	driver.cc	/^int main (int argc, char *argv[]){$/;"	f
+md5	md5.cc	/^std::string md5(const std::string str)$/;"	f
+memcpy	md5.cc	/^void MD5::memcpy (uint1 *output, uint1 *input, uint4 len){$/;"	f	class:MD5
+memset	md5.cc	/^void MD5::memset (uint1 *output, uint1 value, uint4 len){$/;"	f	class:MD5
+operator <<	md5.cc	/^ostream& operator<<(ostream &stream, MD5 context){$/;"	f
+raw_digest	md5.cc	/^unsigned char *MD5::raw_digest(){$/;"	f	class:MD5
+rotate_left	md5.cc	/^inline unsigned int MD5::rotate_left  (uint4 x, uint4 n){$/;"	f	class:MD5
+state	md5.hh	/^  uint4 state[4];$/;"	m	class:MD5
+transform	md5.cc	/^void MD5::transform (uint1 block[64]){$/;"	f	class:MD5
+uint1	md5.hh	/^  typedef unsigned      char uint1; \/\/ assumes char is 1 word long$/;"	t	class:MD5
+uint2	md5.hh	/^  typedef unsigned short int uint2; \/\/ assumes short integer is 2 words long$/;"	t	class:MD5
+uint4	md5.hh	/^  typedef unsigned       int uint4; \/\/ assumes integer is 4 words long$/;"	t	class:MD5
+update	md5.cc	/^void MD5::update (uint1 *input, uint4 input_length) {$/;"	f	class:MD5
+update	md5.cc	/^void MD5::update(FILE *file){$/;"	f	class:MD5
+update	md5.cc	/^void MD5::update(ifstream& stream){$/;"	f	class:MD5
+update	md5.cc	/^void MD5::update(istream& stream){$/;"	f	class:MD5
